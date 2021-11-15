@@ -271,5 +271,3 @@ public class BeerServiceTest {
         assertThrows(BeerNotFoundException.class, () -> beerService.decrement(INVALID_BEER_ID, quantityToDecrement));
     }
 }
-//
-//
