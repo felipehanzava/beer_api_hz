@@ -61,7 +61,7 @@ public class BeerControllerTest {
         // given
         BeerDTO beerDTO = BeerDTOBuilder.builder().build().toBeerDTO();
 
-        // when
+        // when (Mockito)
         when(beerService.createBeer(beerDTO)).thenReturn(beerDTO);
 
         // then
